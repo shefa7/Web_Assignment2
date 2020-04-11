@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header{
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+#fortune{
+	margin-top:30px;
+}
+#fortune_gen{
+  border: 1px solid black;
+  text-align: center;
+  background: lightgray;
+}
+#converter{
+  margin-left: 430px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 0;
+}
+#converter td{
+  padding: 5px;
+}
+#im{
+  padding: 20px;
+  border-radius: 50%;
+  height: 155px;
+  width: 150px;
+}
+#ban{
+  height: 200px;
+  width: 100%;
+  }
+
+.content{
+  min-height: 400px;
+  border-top: 2px solid black;
+  overflow: hidden;
+}
+.nav{
+  min-height: 400px;
+  background: white;
+  width:15%;
+  float:left;
+}
+.right-part{
+background: #E6E6FA;
+height: 400px;
+width:85%;
+float:right;
+overflow: scroll;
+}
+.right-part p{
+  padding: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: justify;
+}
+
+.nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li :hover{
+  background: #dce0e0;
+}
+.nav .current{
+  background-color: 	white;
+  border-right: 3px solid black ;
+}
+.nav ul li a{
+  border-top: 1px solid black;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+  color: black;
+}
+.nav ul li:last-child{
+  border-bottom: 1px solid black;
+}
+
+#right-part-left{
+  min-height: 200px;
+  width:20%;
+  float:left;
+}
+#right-part-right{
+min-height: 200px;
+width:80%;
+float:right;
+}
+#name{
+  margin-top: 148px;
+}
+#right-bottom{
+min-height: 200px;
+}
+
+.paragraph{
+  margin-top: 30px;
+  text-align: justify;
+}
+
+.content_table{
+  border-collapse: collapse;
+  min-width: 500px;
+  margin-top: 20px;
+  margin-left: 27px;
+  font-size: .9em;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.content_table thead tr{
+  background-color: #c0ccca;
+  color: #000000;
+  text-align: left;
+  font-weight: bold;
+}
+.content_table td{
+  padding: 10px 5px;
+}
+.content_table tbody tr{
+  border-bottom: 1px solid #dddddd;
+}
+.content_table tbody tr:nth-of-type(even){
+  background-color: #f3f3f3;
+}
+.content_table tbody tr:last-of-type{
+  border-bottom: 2px solid #000000;
+}
+
+.fav{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#qt{
+  font-style: italic;
+  padding: 10px 150px;
+  text-align: center;
+  color: #A0522D;
+  font-weight: bold;
+}
+#im2{
+  margin-left: 30px;
+  height: 200px;
+  width: 450px;
+}
+.list{
+  margin-left: 50px;
+}
+.footer{
+  min-height: 30px;
+  background:#666666;
+  overflow: hidden;
+}
+.footer p{
+  text-align: center;
+  padding: 10px;
+  color: #ffffff;
+}
